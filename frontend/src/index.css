@@ -1,0 +1,62 @@
+/* Global Styles for Beauty With Rumi */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Girly Color Palette */
+  --primary-pink: #ff8fab;
+  --soft-pink: #ffb3c6;
+  --blush: #ffc2d1;
+  --lavender: #e0b0ff;
+  --light-lavender: #f5e6ff;
+  --peach: #ffd5cd;
+  --cream: #fff5f7;
+  --white: #ffffff;
+  --text-dark: #4a4a4a;
+  --text-light: #8b8b8b;
+  --border: #ffe0e9;
+  --shadow: rgba(255, 139, 171, 0.15);
+  
+  /* Fonts */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(135deg, var(--cream) 0%, var(--light-lavender) 100%);
+  min-height: 100vh;
+  color: var(--text-dark);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--soft-pink);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-pink);
+}
